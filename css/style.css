@@ -1,0 +1,171 @@
+/* style.css */
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul { list-style-type: none;}
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 18px;
+  }
+  
+  #main_header {
+    background: red;
+    background:url(../images/mainbanner.png);
+    width: 1920px;
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+    z-index: 999;
+  }
+  
+  #main_header .container {
+    position: relative;
+  }
+  
+  #main_header h1 {
+    position: absolute;
+    left: 359px; top: 14px;
+  }
+  #main_header h1 > a > img { 
+      height: 100px;
+  }
+  
+  #gnb {
+    position: absolute;
+    right: 375px; top: 25px;
+  }
+  
+  #gnb a >img {
+       height: 50px;
+    }
+  
+  #gnb > ul > li {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  #gnb > ul > li > a {
+    display: block;
+  }
+  
+  #gnb > ul > li > a:hover {
+    border-bottom: white;
+  }
+  
+  #brand {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background: #fff;
+      text-align: center;
+  }
+
+  .container h2 {
+    border: 2px solid black;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    position: relative;
+    left: 600px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container p {
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 600px;
+    position: relative;
+    left: 600px;
+    text-align: center;
+  }
+
+  .dinner {
+    border: 2px solid red;
+    width: 887px;
+    height: 273px;
+  }
+
+  .beverage, .dinner {
+    position: relative;
+    left: 500px;
+  }
+
+  .beverage > li , .dinner > li {
+      /*border: 5px solid orange;*/
+      float: left;
+      margin-left: 25px;
+  }
+
+  .beverage > .middle , .dinner > .middle {
+      margin-top: 10px;
+  }
+
+
+  .container #food {
+      /*border: 5px solid red;*/
+      margin-top: 200px;
+  }
+
+  .dinner > li {
+    border: 2px solid green;
+  }
+
+  /*브랜드별 추천 메뉴*/
+
+  .container1 {
+    background: #ccc;
+    height: 208px;
+    padding-top: 1278px;
+  }
+.container1 > h2 {
+    border: 2px solid black;
+    margin-top: -1200px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    width: 200px;
+    position: relative;
+    left: 800px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container1 > img {
+    padding-bottom: 55px;
+  }
+
+  /*매장위치*/
+
+  .address {
+    background: #ccc;
+  }
+  .container2 > h2 {
+    border: 2px solid black;
+    margin-top: -1200px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    width: 200px;
+    position: relative;
+    left: 800px;
+    top: 1300px;
+    text-align: center;    
+    font-weight: bold;
+  }
+
+  .container2 > select {
+    position: relative;
+    left: 421px;
+    top: 1300px;
+
+  }
